@@ -1,2 +1,2 @@
-Hello!
-This is a music application that I crated called "SoundEscape".
+# SoundEscape Music Application
+This is a static front-end focused application. It was built using HTML, CSS, JavaScript and JQuery framework. Easy on the eyes with the soft purple colors to bring distinction
