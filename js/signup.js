@@ -32,6 +32,8 @@ loginLink.onclick = () => {
   const usernameInput = document.querySelector('.form-box.register input[type="password"]');
   const passwordInput = document.querySelector('.form-box.register input[type="password"]');
   const agreeCheckbox = document.querySelector('.form-box.register input[type="checkbox"]');
+
+  const errorMessage = document.getElementById('error-message');
   
   signupFormElement.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form submission
@@ -44,7 +46,7 @@ loginLink.onclick = () => {
       errorMessage.style.display = 'block';
     } else {
       // All fields are filled, redirect to the application or perform further actions
-      window.location.href = 'application.html'; /*ovdje treba welcome screen onaj biti*/
+      window.location.href = 'index.html'; /*ovdje treba welcome screen onaj biti*/
     }
   });
 
